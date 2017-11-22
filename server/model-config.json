@@ -1,0 +1,44 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "Articulo": {
+    "dataSource": "sqlServerDS",
+    "public": true
+  },
+  "Cliente": {
+    "dataSource": "sqlServerDS",
+    "public": true
+  },
+  "Domicilio": {
+    "dataSource": "sqlServerDS",
+    "public": true
+  },
+  "Pedidoventa": {
+    "dataSource": "sqlServerDS",
+    "public": true
+  },
+  "Pedidoventadetalle": {
+    "dataSource": "sqlServerDS",
+    "public": true
+  },
+  "Rubro": {
+    "dataSource": "sqlServerDS",
+    "public": true
+  },
+  "Usuarios": {
+    "dataSource": "sqlServerDS",
+    "public": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "sqlServerDS": {
+    "host": "localhost",
+    "port": 1401,
+    "url": "",
+    "database": "TrabajoFinalLabo4",
+    "password": "Laboratorio4$",
+    "name": "sqlServerDS",
+    "connector": "mssql",
+    "user": "sa"
+  }
+}

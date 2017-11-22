@@ -29,15 +29,11 @@
     "dataSource": "sqlServerDS",
     "public": true
   },
-  "Pedidoventadetalle": {
-    "dataSource": "sqlServerDS",
-    "public": true
-  },
   "Rubro": {
     "dataSource": "sqlServerDS",
     "public": true
   },
-  "Usuarios": {
+  "Pedidoventadetalle": {
     "dataSource": "sqlServerDS",
     "public": true
   }

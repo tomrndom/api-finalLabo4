@@ -36,5 +36,13 @@
   "Pedidoventadetalle": {
     "dataSource": "sqlServerDS",
     "public": true
+  },
+  "Auth": {
+    "dataSource": null,
+    "public": true    
+  },
+  "Devices": {
+    "dataSource": "sqlServerDS",
+    "public": true
   }
 }

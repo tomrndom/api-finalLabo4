@@ -58,7 +58,7 @@
                 "dataLength": 36,
                 "dataPrecision": 0,
                 "dataScale": 0,
-                "nullable": "N"
+                "nullable": "NO"
             }
         },
         "fechaCreacion": {

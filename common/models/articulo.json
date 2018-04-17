@@ -29,13 +29,13 @@
     "codigo": {
       "type": "String",
       "required": true,
-      "length": 15,
+      "length": 5,
       "precision": null,
       "scale": null,
       "mssql": {
         "columnName": "codigo",
-        "dataType": "nchar",
-        "dataLength": 15,
+        "dataType": "varchar",
+        "dataLength": 5,
         "dataPrecision": null,
         "dataScale": null,
         "nullable": "NO"

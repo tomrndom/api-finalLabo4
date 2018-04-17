@@ -1,0 +1,11 @@
+{
+  "sqlServerDS": {
+    "host": "${MSSQL_HOST}",
+    "port": "${MSSQL_PORT}",    
+    "database": "${MSSQL_SCHEMA}",
+    "password": "${MSSQL_PASSWORD}",
+    "name": "sqlServerDS",
+    "connector": "mssql",
+    "user": "${MSSQL_USER}"
+  }
+}

@@ -2,7 +2,7 @@
 
 module.exports = function (Rubro) {
 
-    Rubro.observe('access', function logQuery(ctx, next) {
+    /*Rubro.observe('access', function logQuery(ctx, next) {
         console.log('Accessing %s matching %s', ctx.Model.modelName, ctx.query.where);
         console.log('Checking %s headers', ctx.Model.modelname, ctx.options);
         if(ctx.options.accessToken != null){
@@ -16,7 +16,7 @@ module.exports = function (Rubro) {
             error.code = 'INVALID_REQUEST';             
             next(error);
         }
-    });
+    });*/
 
     Rubro.disableRemoteMethodByName('create');
     Rubro.disableRemoteMethodByName('replaceOrCreate');
